@@ -5,12 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const content = `<h3>WINGSプロジェクト</h3>
+  <img src="https://wings.msn.to/image/wings.jpg" />`;
 
-setInterval(() => {
-  root.render(
-    <p>現在時刻:{(new Date()).toLocaleString()}</p>
-  );
-}, 1000);
+root.render(
+  <p dangerouslySetInnerHTML={{ __html: content }}></p>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
