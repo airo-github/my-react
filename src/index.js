@@ -5,11 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const content = `<h3>WINGSプロジェクト</h3>
-  <img src="https://wings.msn.to/image/wings.jpg" />`;
+const attrs = {
+  href: 'https://wings.msn.to/',
+  download: false,
+  target: '_blank',
+  rel: 'help'
+};
 
 root.render(
-  <p dangerouslySetInnerHTML={{ __html: content }}></p>
+  <a {...attrs}>サポートページへ</a>
 );
 
 // If you want to start measuring performance in your app, pass a function
