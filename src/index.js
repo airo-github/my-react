@@ -3,17 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './class.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const attrs = {
-  href: 'https://wings.msn.to/',
-  download: false,
-  target: '_blank',
-  rel: 'help'
-};
 
 root.render(
-  <a {...attrs}>サポートページへ</a>
+  <a className='hoge'>WINGSプロジェクト</a>
 );
 
 // If you want to start measuring performance in your app, pass a function
