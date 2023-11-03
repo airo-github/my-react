@@ -4,12 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './class.css';
-import MyHello from './chap03/MyHello';
+import EventBasic from './chap03/EventBasic';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <MyHello myName='鈴木' />
+  <EventBasic type='' />
 );
 
 reportWebVitals();
