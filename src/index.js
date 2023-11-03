@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './class.css';
 import EventBasic from './chap03/EventBasic';
+import StateBasic from './chap03/StateBasic';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <EventBasic type='' />
+  <StateBasic init={0} />
 );
 
 reportWebVitals();
