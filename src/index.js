@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import './class.css';
-import ForList from './chap03/ForList';
 import books from './chap03/books'
+import ForNest from './chap03/ForNest';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <ForList src={books} />
+  <ForNest src={books} />
 );
 
 reportWebVitals();
