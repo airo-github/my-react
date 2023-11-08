@@ -4,12 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import './class.css';
 import books from './chap03/books'
-import ForNest from './chap03/ForNest';
+import ForFilter from './chap03/ForFilter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <ForNest src={books} />
+  <ForFilter src={books} />
 );
 
 reportWebVitals();
