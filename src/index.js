@@ -4,12 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import './class.css';
 import books from './chap03/books'
-import ForFilter from './chap03/ForFilter';
+import ForSort from './chap03/ForSort';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <ForFilter src={books} />
+  <ForSort src={books} />
 );
 
 reportWebVitals();
